@@ -1,0 +1,15 @@
+sudo: false
+dist: trusty
+language: python
+python:
+  - "2.7"
+  - "3.5"
+install:
+  - pip install numpy scipy matplotlib h5py xlrd future
+script:
+  - export NGPDIR=../
+  - export PYTHONPATH=$PYTHONPATH:$NGPDIR
+  - python -m nugridpy.regression_tests.selftest
+notifications:
+  slack: nugrid:wTgGR31cFsNUqfytUDZ5ZLug
+  email: false

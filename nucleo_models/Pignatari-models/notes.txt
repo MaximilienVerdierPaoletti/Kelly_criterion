@@ -1,0 +1,19 @@
+The files with “like15” in their names are the 25T models reported in Pignatari et al. (2015) 
+and the other three files are the 25d models with normal T.
+
+
+								List of CCSN models
+================================================================================================================================
+Xh in the He-shell 			1.2%		0.24%		0.12%		0.06%		0.024%		0.0024%
+before the SN shock
+--------------------------------------------------------------------------------------------------------------------------------
+
+CCSN models set d 			25d		25d-H5		25d-H10		25d-H20		25d-H50		25d-H500
+He-shell ejecta (solar mass)							6.82-9.23
+--------------------------------------------------------------------------------------------------------------------------------
+
+CCSN models set T			25T-H		25T-H5		25T-H10		25T-H20		25T-H50		25T-H500
+He-shell ejecta (solar mass)							6.81-9.23
+O-rich O/nova (solar mass)		6.83-7.04	6.84-7.0	6.86-7.0	6.87-7.0	...		...
+================================================================================================================================
+Note: The He-shell SN ejecta are C-rich, except for the O/Nova zone in the 25T model set.
